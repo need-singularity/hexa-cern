@@ -28,4 +28,5 @@ firmware/target/
 firmware/mcu/Cargo.lock
 
 # .claude harness scratch
-.claude/
+.claude/*
+!.claude/skills/
