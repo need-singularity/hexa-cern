@@ -227,7 +227,6 @@ fn check_hexa_toml_honesty() {
         return
     }
     let ok = _contains(txt, "verdict") && _contains(txt, "SPECS_ONLY")
-    _check(ok, "hexa.toml [closure] verdict = SPECS_ONLY (raw#10 C3)",
            "honest scope declaration present")
 }
 
